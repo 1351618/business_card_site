@@ -1,0 +1,132 @@
+@font-face {
+	font-family: 'Bauhaus';
+	src: url('../fonts/bauhaus.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/bauhaus.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+       url('../fonts/bauhaus.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/bauhaus.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+       url('../fonts/bauhaus.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/bauhaus.svg#bauhaus') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body {
+  background-color: #fff8dc;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 60px;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  justify-content: space-between;
+  background-color: #cdfff9;
+  border-radius: 5px;
+  font-size: 18px;
+
+  
+}
+
+header a:hover {
+  font-size: 18.5px;
+  color: rgb(0, 72, 180);
+  text-shadow: 0px 0px 8px #0062ff;
+  
+}
+
+#header__logo a {
+  text-decoration: none;
+  font-family: 'Bauhaus';
+  font-weight: 600;
+}
+
+.header__list {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__list a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin: 26px;
+}
+
+
+
+main section.body {
+  margin: 70px 10px 10px 10px;
+  border-radius: 5px;
+  background-color: #faebd7;
+}
+
+.body__name {
+  text-align: center;
+  color: #2f4f4f;
+  padding: 2%
+}
+
+section.body__Developer-adout {
+  display: flex;
+  flex-wrap: wrap; 
+  border-radius: 5px;
+}
+
+.foto {
+  max-width: 30%;
+  height: auto;
+  min-width: 350px;
+  min-height: 100px;
+  border-radius: 15px;
+}
+
+.body__Developer-adout div {
+  margin-top: 3%;
+}
+
+
+h2 {
+  margin-left: 10%;
+  color: #2f4f4f;
+}
+
+p {
+  margin-left: 4%;
+  color: #183636;
+}
+
+
+footer {
+  display: flex;
+  font-family: 'Bauhaus';
+  gap: 20px;
+  background-color: darkcyan;
+  border-radius: 5px;
+  color: #f5f5dc;
+}
+
+footer a {
+  color: #ffe4c4;
+}
+
+footer p {
+  margin-left: 30px;
+}
+
+footer a:hover {
+  font-size: calc(100% + 0.5%);
+  text-shadow: 0px 0px 8px #0062ff;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
